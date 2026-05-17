@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title>Softvate Technologies</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="images/favicon.png">
+
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"/>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-slate-100 font-[League_Spartan] tracking-wide">
+
+<section class="min-h-screen flex items-center justify-center py-16 sm:py-20 relative px-4">
+
+<!-- Background -->
+<div class="absolute inset-0 overflow-hidden">
+<img class="w-full h-full object-cover" src="images/img-3.jpg">
+<div class="absolute inset-0 bg-black/80"></div>
+</div>
+
+<div class="relative z-10 max-w-3xl mx-auto text-center text-white">
+
+<!-- Title -->
+<h2 class="text-3xl sm:text-4xl md:text-5xl font-semibold capitalize">
+Stay tuned
+</h2>
+
+<p class="text-sm sm:text-base mt-4 mb-8 px-2">
+Our website is currently under maintenance. We're working behind the scenes to bring you a better experience.
+</p>
+
+<!-- Countdown -->
+<div id="countdown" class="my-10">
+
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 justify-center">
+
+<!-- Days -->
+<div class="h-28 sm:h-36 flex items-center justify-center bg-white/10 border border-white/20 backdrop-blur">
+<div>
+<span id="days" class="text-3xl sm:text-5xl font-semibold"></span>
+<p class="text-xs uppercase mt-2">Days</p>
+</div>
+</div>
+
+<!-- Hours -->
+<div class="h-28 sm:h-36 flex items-center justify-center bg-white/10 border border-white/20 backdrop-blur">
+<div>
+<span id="hours" class="text-3xl sm:text-5xl font-semibold"></span>
+<p class="text-xs uppercase mt-2">Hours</p>
+</div>
+</div>
+
+<!-- Minutes -->
+<div class="h-28 sm:h-36 flex items-center justify-center bg-white/10 border border-white/20 backdrop-blur">
+<div>
+<span id="minutes" class="text-3xl sm:text-5xl font-semibold"></span>
+<p class="text-xs uppercase mt-2">Minutes</p>
+</div>
+</div>
+
+<!-- Seconds -->
+<div class="h-28 sm:h-36 flex items-center justify-center bg-white/10 border border-white/20 backdrop-blur">
+<div>
+<span id="seconds" class="text-3xl sm:text-5xl font-semibold"></span>
+<p class="text-xs uppercase mt-2">Seconds</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- Subscribe -->
+<p class="text-sm mt-6">
+Subscribe to get notified when Softvate Technologies launches.
+</p>
+
+<form id="notifyForm" class="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto">
+
+<input
+type="email"
+id="email"
+placeholder="Enter your email..."
+class="w-full px-4 py-3 text-sm text-black bg-white/80 rounded focus:outline-none"
+/>
+
+<button
+type="submit"
+class="sm:w-auto px-7 py-3 bg-blue-500 hover:bg-blue-600 text-white text-sm font-semibold uppercase transition duration-300 rounded">
+Subscribe
+</button>
+
+</form>
+
+<p id="successMsg" class="text-green-400 text-sm mt-4 hidden">
+Thank you! You will be notified when we launch.
+</p>
+
+<!-- Footer -->
+<footer class="mt-12 text-xs sm:text-sm text-gray-400">
+© 2026 Softvate Technologies. All Rights Reserved.
+</footer>
+
+</div>
+</section>
+
+<script src="js/theme.js"></script>
+
+</body>
+</html>
