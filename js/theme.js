@@ -5,7 +5,7 @@
           day = hour * 24;
 
     // Set target date here
-    const targetDate = new Date("2026-05-22 00:00:00").getTime();
+    const targetDate = new Date("2026-05-24 00:00:00").getTime();
 
     const x = setInterval(function () {
 
